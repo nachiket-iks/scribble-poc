@@ -1,0 +1,5 @@
+package com.example.chartnote_scrb
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()
