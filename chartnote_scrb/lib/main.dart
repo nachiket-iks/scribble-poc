@@ -1,17 +1,6 @@
-// ============================================================
-// BP ChartNote Viewer — Flutter Demo App
-// ============================================================
-// Dependencies to add in pubspec.yaml:
-//   flutter_html: ^3.0.0
-//   http: ^1.2.1
-// ============================================================
-
-import 'dart:async';
-import 'dart:convert'; // for jsonDecode + base64Decode + utf8
-
 import 'package:flutter/material.dart';
-import 'package:flutter_html/flutter_html.dart';
-import 'package:http/http.dart' as http;
+
+import 'chartnote_screen.dart'; // for jsonDecode + base64Decode + utf8
 
 void main() {
   runApp(const ChartNoteApp());
